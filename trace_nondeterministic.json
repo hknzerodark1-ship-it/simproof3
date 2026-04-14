@@ -1,0 +1,37 @@
+{
+  "run_id": "run_003",
+  "timestamp": "2026-04-14T00:00:02Z",
+  "rng_states": {
+    "python_seed": null,
+    "cuda_deterministic": false
+  },
+  "events": [
+    {
+      "t": 0.0,
+      "event": "start",
+      "node": "perception"
+    },
+    {
+      "t": 0.1,
+      "event": "process",
+      "node": "perception"
+    },
+    {
+      "t": 0.2,
+      "event": "start",
+      "node": "planning"
+    },
+    {
+      "t": 0.3,
+      "event": "complete",
+      "node": "planning"
+    }
+  ],
+  "outputs": {
+    "final_position": [
+      0.999,
+      2.001,
+      2.999
+    ]
+  }
+}
